@@ -1,4 +1,4 @@
-#include "ParametersHS321.h"
+#include "../include/ParametersHS321.h"
 
 /**
  * @brief Получение номинальной мощности модели частотного преобразователя.

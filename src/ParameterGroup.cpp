@@ -1,4 +1,4 @@
-#include "ParameterGroup.h"
+#include "../include/ParameterGroup.h"
 
 /**
  * @brief Конструктор класса ParameterGroup.
