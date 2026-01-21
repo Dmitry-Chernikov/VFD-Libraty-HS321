@@ -1,4 +1,4 @@
-VFD-Libraty-HS321
+VFD-Library-HS321
 =================
 API for controlling the frequency converter HS321 via the Modbus RTU protocol.
 
