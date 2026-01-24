@@ -1,4 +1,5 @@
 #include "../../src/HS321.h"
+#include <Arduino.h>
 
 #define rs485TransceiverReceive 4 // Вывод разрешения работы передатчика и приёмника
 

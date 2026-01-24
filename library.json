@@ -1,7 +1,7 @@
 {
   "name": "VFD-Library-HS321",
   "version": "1.0.1",
-  "description": "API for controlling the frequency converter HS321 via the Modbus RTU protocol. Imples the interaction with the frequency via the RS485 interface. Supports reading/writing parameters, sending control commands and diagnostics.",
+  "description": "API for controlling the frequency converter HS321 via the Modbus RTU protocol. Implies the interaction with the frequency via the RS485 interface. Supports reading/writing parameters, sending control commands and diagnostics.",
   "keywords": "AC, drive, VF, HS321, Frequency, Converter",
   "repository":
   {
