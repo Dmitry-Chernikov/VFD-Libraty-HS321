@@ -166,12 +166,12 @@ public:
     /**
      * @brief Конструктор класса.
      * @param slaveAddress Адрес ведомого устройства (частотника) в сети Modbus.
-     * @param serialPort Указатель на объект HardwareSerial для связи с частотником.
-     * @param serialDebug Указатель на объект HardwareSerial для вывода отладочной информации.
+     * @param serialPort Ccылка на объект HardwareSerial для связи с частотником.
+     * @param serialDebug Ccылка на объект HardwareSerial для вывода отладочной информации.
      * @param baud Скорость передачи данных (обычно 9600, 19200, 115200).
      * @param transmitterModeContact Номер цифрового пина для управления направлением RS485 (DE/RE).
      */
-    HS321(uint8_t slaveAddress, HardwareSerial* serialPort, HardwareSerial* serialDebug, unsigned long baud, uint8_t transmitterModeContact);
+    HS321(uint8_t slaveAddress, HardwareSerial& serialPort, HardwareSerial& serialDebug, unsigned long baud, uint8_t transmitterModeContact);
 
     /**
      * @brief Инициализация класса и настройка аппаратных параметров.

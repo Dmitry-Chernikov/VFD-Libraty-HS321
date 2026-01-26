@@ -21,7 +21,7 @@
  * @param baud Скорость передачи данных (например, 9600, 19200, 115200).
  * @param transmitterModeContact Номер цифрового пина, управляющего направлением передачи RS485 (DE/RE).
  */
-HS321::HS321(const uint8_t slaveAddress, HardwareSerial* serialPort, HardwareSerial* serialDebug, const unsigned long baud, const uint8_t transmitterModeContact)
+HS321::HS321(const uint8_t slaveAddress, HardwareSerial& serialPort, HardwareSerial& serialDebug, const unsigned long baud, const uint8_t transmitterModeContact)
                                                                 :_slaveAddress(slaveAddress),
                                                                 _serialPort(serialPort),
                                                                 _serialDebug(serialDebug),

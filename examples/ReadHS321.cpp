@@ -1,9 +1,9 @@
-#include "../../src/HS321.h"
 #include <Arduino.h>
+#include <HS321.h>
 
 #define rs485TransceiverReceive 4 // Вывод разрешения работы передатчика и приёмника
 
-HS321 hs321(0x0001, &Serial1, &Serial, 9600, rs485TransceiverReceive);
+HS321 hs321(0x0001, Serial1, &Serial, 9600, rs485TransceiverReceive);
 
 void testConnection();
 
